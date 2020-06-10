@@ -1,7 +1,7 @@
-x='abd'
-if(x=='ping')
+x = 'abd'
+if (x == 'ping')
   console.log('pong')
-else if(x=='beep')
+else if (x == 'beep')
   console.log('boop')
 else
-console.log('ping pong! beep boop')
+  console.log('ping pong! beep boop')

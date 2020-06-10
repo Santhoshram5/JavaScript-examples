@@ -1,1 +1,1 @@
-console.log('Todays Date is',new Date())
+console.log('Todays Date is', new Date())
