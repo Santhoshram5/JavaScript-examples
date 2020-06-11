@@ -1,2 +1,4 @@
-x = 5
-console.log('Area of a square with side', x, 'is', x * x)
+square=(side)=>{
+    return side*side;
+}
+module.exports=square;

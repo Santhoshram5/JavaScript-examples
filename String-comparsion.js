@@ -1,7 +1,9 @@
-x = 'abd'
-if (x == 'ping')
-  console.log('pong')
-else if (x == 'beep')
-  console.log('boop')
+compare=(string)=>{
+if (string == 'ping')
+  return 'pong'
+else if (string == 'beep')
+  return 'boop'
 else
-  console.log('ping pong! beep boop')
+  return 'ping pong! beep boop'
+}
+module.exports=compare;

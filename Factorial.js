@@ -1,6 +1,7 @@
-ans = 1
-f = 5
-for (var i = 1; i <= f; i++) {
-    ans = ans * i
+factorial=(number)=>{
+    if(number==1)
+       return 1;
+    else
+        return factorial(number-1)*number;
 }
-console.log('Factorial of', f, 'is', ans);
+module.exports=factorial;

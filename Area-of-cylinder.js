@@ -1,3 +1,4 @@
-r = 5
-h = 4
-console.log('Area of cylinder with radius', r, 'and with height', h, 'is', 2 * Math.PI * r * (h + r))
+cylinder=(radius,height)=>{
+    return 2 * Math.PI * radius * (height + radius);
+}
+module.exports=cylinder;

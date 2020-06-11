@@ -1,2 +1,4 @@
-var h = 'Javascript'
-console.log('Reversed String of "', h, '" is', h.split('').reverse().join(''))
+reverse=(string)=>{
+    return string.split('').reverse().join('');
+}
+module.exports=reverse;

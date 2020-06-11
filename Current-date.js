@@ -1,1 +1,4 @@
-console.log('Todays Date is', new Date())
+currentDate=()=>{
+    return new Date();
+}
+module.exports=currentDate;

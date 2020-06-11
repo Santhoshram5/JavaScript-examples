@@ -1,7 +1,6 @@
-var ddate = 14;
-var dmonth = 11;
+diwali=(date,month)=>{
 ans = 0;
-for (var i = new Date().getMonth() + 2; i < dmonth; i++) {
+for (var i = new Date().getMonth() + 2; i < month; i++) {
      if (i == 1 || i == 3 || i == 5 || i == 7 || i == 8 || i == 10 || i == 12) {
           ans = ans + 31;
      } else if (i == 2) {
@@ -11,4 +10,6 @@ for (var i = new Date().getMonth() + 2; i < dmonth; i++) {
           ans = ans + 30;
      }
 }
-console.log('Number of days to Diwali Festivel from today is', ans + ddate + (30 - new Date().getDate()))
+return ans + date + (30 - new Date().getDate());
+}
+module.exports=diwali;

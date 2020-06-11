@@ -1,5 +1,8 @@
-var a = 1
-var b = 2
-var c = -3
-var d = 1.0
-console.log('Addition of', a, ',', b, ',', c, ',', d, 'is', a + b + c + d)
+add= (array_of_numbers)=>{
+    total=0
+   for(i=0;i<array_of_numbers.length;i++){
+       total=total+array_of_numbers[i];
+   }
+   return total;
+}
+module.exports=add;
