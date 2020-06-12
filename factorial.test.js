@@ -1,3 +1,3 @@
-const factorial=require('./Factorial')
-const result=require('./node_modules/testing-lib/test')
-console.log(result(factorial(6),120))
+const explain = require('./node_modules/testing-lib/test');
+const factorial = require('./Factorial');
+explain("Factorial of 5").it('should be 120').expect(factorial(5)).toBe(120);

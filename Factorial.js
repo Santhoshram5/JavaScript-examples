@@ -4,4 +4,4 @@ const factorial=(number)=>{
     else
         return factorial(number-1)*number;
 }
-export {factorial};
+module.exports=factorial;

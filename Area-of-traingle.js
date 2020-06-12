@@ -1,4 +1,4 @@
-triangle=(length,breadth)=>{
-    return 0.5*length*breadth;
+triangle=(base,height)=>{
+    return 0.5*base*height;
 }
 module.exports=triangle;
