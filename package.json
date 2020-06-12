@@ -1,0 +1,22 @@
+{
+  "name": "june-9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santhoshram5/JavaScript-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Santhoshram5/JavaScript-examples/issues"
+  },
+  "homepage": "https://github.com/Santhoshram5/JavaScript-examples#readme",
+  "dependencies": {
+    "testing-lib": "github:DivyaBharathi-14/test_methods-lib"
+  }
+}
